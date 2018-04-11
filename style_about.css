@@ -1,0 +1,407 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url("Fonts/BebasNeue.otf")
+}
+@font-face {
+    font-family: Brandon_bld;
+    src: url("Fonts/Brandon_bld.otf")
+}
+
+@keyframes slideframes {
+    100% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#sliding {
+    width: 1280px;
+    height: 720px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.slideIMG {
+    display: none;
+}
+
+.slideIMG img {
+    width: 1280px;
+    height: 720px;
+    border: 1px solid black;
+    margin: auto;
+    animation: slideframes 4.5s;
+    border-radius: 25px;
+}
+
+p2 {
+    color: hsl(192, 100%, 17%)
+}
+
+.active {
+    text-decoration: underline;
+    font-family: "BebasNeue";
+    font-size: 28px;
+    margin: auto;
+    color: hsl(192, 100%, 17%)
+}
+
+#xddddddddddddddddddd {
+    color: grey;
+    text-align: center;
+    font-size: 2000%;
+    margin-top: -25px;
+    margin-bottom: 0;
+}
+
+#AboutImg {
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#FTImage {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#Logo {
+    
+    display: block;
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    font-family: "BebasNeue";
+    font-size: 48px;
+    margin: auto;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 28px;
+    padding-top: 5px;
+    
+}
+
+li2 {
+    display: inline-block;
+    list-style-type: none;
+    margin: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+a {
+    text-decoration: none;
+    font-family: "BebasNeue";
+    font-size: 28px;
+    margin: auto;
+    color: white;
+}
+
+.active:hover {
+    text-decoration: underline;
+    font-family: "BebasNeue";
+    font-size: 28px;
+    margin: auto;
+    color: hsl(192, 100%, 17%)
+}
+
+a:hover {
+    text-decoration: none;
+    font-family: "BebasNeue";
+    font-size: 28px;
+    margin: auto;
+    color: hsl(192, 100%, 17%) 
+}
+footer {
+    display: block;
+    margin: auto;
+    padding-bottom: 85px;
+}
+
+.footer {
+    display: block;
+    color: white;
+    font-family: "BebasNeue";
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    top: 100;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: hsla(0, 0%, 0%, 0.25);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+.signature {
+    text-decoration: none;
+    font-family: "Brandon_bld";
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: white;
+    padding-left: 0px;
+}
+
+#cNotice {
+    padding-top: 20px;
+    display: block;
+    text-decoration: none;
+    font-family: "Brandon_bld";
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: white;
+}
+
+#sNotice {
+    display: block;
+    text-decoration: none;
+    font-family: "Brandon_bld";
+    font-size: .95rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: white;
+}
+
+p5 {
+    display: block;
+    text-decoration: none;
+    font-family: "Brandon_bld";
+    font-size: 1.25rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+}
+
+#buffer {
+    display: block;
+    text-decoration: none;
+    font-family: "Brandon_bld";
+    font-size: 1.45rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+}
+
+p6 {
+    display: block;
+    text-decoration: underline;
+    font-family: "Brandon_bld";
+    font-size: 1.45rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+}
+
+#lolitworks {
+    font-size: 48px;
+    margin-top: -45px;
+    display: block;
+    padding: -10px;
+}
+
+#coffeetable {
+    text-decoration: none;
+    position: relative;
+    font-family: "Brandon_bld";
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+}
+#Cdesc {
+    position: relative;
+    margin-top: 0px;
+    font-family: "Brandon_bld";
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+#tcap {
+    text-decoration: underline;
+    position: relative;
+    font-family: "Brandon_bld";
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+#submitted {
+    display: block;
+    text-decoration: none;
+    font-family: "Brandon_bld";
+    font-size: .45rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+}
+
+p3 {
+    display: block;
+    text-decoration: none;
+    font-family: "Brandon_bld";
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+ul {
+    margin: auto;
+    width: 35%;
+    padding-top: 25px;
+}
+
+#sub {
+    font-family: "Brandon_bld";
+}
+
+#submitname {
+    font-family: "Brandon_bld";
+    width: 250px;
+}
+
+#submitemail {
+    font-family: "Brandon_bld";
+    width: 250px;
+}
+
+#submitbox {
+    font-family: "Brandon_bld";
+    height: 100px;
+    width: 250px;
+}
+
+#ContID {
+    border: none;
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+    padding-top: 35px;
+    padding-bottom: 1px;
+    width: 35%;
+    text-decoration: NONE;
+    font-family: "Brandon_bld";
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#FAQID {
+    margin: auto;
+    padding: 10px;
+    padding-top: 35px;
+    padding-bottom: 1px;
+    width: 35%;
+    text-decoration: underline;
+    font-family: "Brandon_bld";
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#question {
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    font-family: "Brandon_bld";
+    font-size: 1.45rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#answer {
+    margin-top: -45px;
+    margin-bottom: -45px;
+    display: block;
+    text-decoration: none;
+    font-family: "Brandon_bld";
+    font-size: 1.30rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+p1 {
+    font-family: "BebasNeue";
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+  }
+  
+  .fullscreen-bg_Video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (min-aspect-ratio: 3/4) {
+    .fullscreen-bg_Video {
+      height: 300%;
+      top: -100%;
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg_Video {
+      width: 300%;
+      left: -100%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .fullscreen-bg {
+      background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    }
+  
+    .fullscreen-bg_Video {
+      display: none;
+    }
+  }
+  
